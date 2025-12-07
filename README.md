@@ -5,14 +5,14 @@ This project demonstrates how to perform training and inference directly on encr
 
 ### Features
 CKKS-based encrypted computation using Lattigo v6.
-	•	End-to-end workflow: load CSV → encode → encrypt → train → predict.
-	•	Encrypted linear algebra pipeline: rotations, linear transformations, rescaling, relinearization.
+	•	End-to-end workflow: load CSV → encode → encrypt → train → predict.  
+	•	Encrypted linear algebra pipeline: rotations, linear transformations, rescaling, relinearization.  
 	•	Polynomial sigmoid approximation for encrypted logistic regression.
 
 ### Project Structure
 .
-├─ main.go        # Entry point: args parsing, data loading, model training/testing
-├─ LR.go          # Core logistic regression logic on encrypted data
+├─ main.go        # Entry point: args parsing, data loading, model training/testing  
+├─ LR.go          # Core logistic regression logic on encrypted data  
 └─ utils.go       # Helper functions (CSV loading, sigmoid approximation, lintrans utilities)
 
 ### Dependencies
